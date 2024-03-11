@@ -1,0 +1,14 @@
+main: com.jeddlupoy.timelimit.TimeLimit
+name: TimeLimit
+version: '1.0'
+description: Time-based PvP mini game.
+api-version: '1.16'
+load: POSTWORLD
+author: 0n3Appl3
+website: jeddlupoy.com
+prefix: TimeLimit
+commands:
+  tl:
+    description: Admin commands for managing TimeLimit games.
+    permission: timelimit.admin
+    usage: /<command> [test|stop]
